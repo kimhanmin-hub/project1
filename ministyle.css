@@ -1,0 +1,172 @@
+
+body{font-family:"맑은 고딕" ,"고딕", "굴림";
+    background-color: lightgray;}
+
+#wrapper{
+            width: 800px;
+            margin: 0 auto;}
+
+form{float:right}
+
+header{
+            text-align: center;
+            width: 100%;
+            height: 150px;
+            background-image: url(/images_all/다운로드\ \(4\).jpg);
+            margin-top: 3opx;
+}
+header nav{
+            width: 70%;
+            margin-top: 5px;
+            float: left;
+        }
+nav>ul{     
+            list-style-type: none;
+            text-align: center;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            padding: 35PX 0;
+            margin:10px;}
+            
+nav ul li { 
+            display:inline;
+            float:left;
+            font-weight: bold;
+            margin: 15px;
+             padding: 0 20px;}
+nav ul li a{
+            color: black;
+            text-decoration: none;}
+
+header form {
+            float: right;}
+
+#section1     {
+            width: 580px;
+            float: left;
+            padding: 5px;       
+        }
+
+#section1 article{
+            float:left;
+            width: 250px;
+            height:220px;
+            margin: 5px;
+            padding: 10px;
+            border:1px solid black
+}
+
+#section2{
+            float: left;
+            clear: both;    
+              }
+
+#section2 article{     
+            float: left;
+            width: 125px;
+            height: 55px;
+            border:1px solid black }
+
+#aside1{    
+        
+            list-style-type: none;
+            background-color: lightgray;  
+            border: 1px solid;  
+            width: 200px;
+            height: auto;
+            position: fixed;
+            top:500px;
+            right:0px;
+            }
+
+#aside1 ul li { border: 1px solid green;
+                color: green;
+                list-style: none;
+                background-color: transparent;
+                opacity: 0.5s;}
+
+#aside1 li:hover {
+                background-color: skyblue;
+                 /* 호버 상태일 때의 배경색 설정 */
+                 opacity: 0.7;
+            }
+
+
+#aside1 a {text-decoration: none;}
+
+#aside1 h3{
+            display: block;
+            border: 1px solid black;
+            background-color: darkolivegreen;
+            width: 100%;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+          
+
+#aside2{
+        float:right;
+        width: auto;
+        margin-top: 5px;
+        border:1px solid darkgreen;
+        background-color: darkkhaki;
+        text-align: left;}
+
+#aside2 ul li{
+        background-color: transparent;
+        opacity: 1s;}
+#aside2 li:hover{background-color: skyblue;
+        opacity: 0.7;
+}
+
+
+#aside2 h3{
+        display: block;
+        background-color: lightslategray;
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border:1px solid darkgreen;
+}
+
+
+
+footer{
+        clear:both;
+        width: 800px;
+        margin-bottom: 0;
+        background-color: lightcyan;
+        color: lightgray;
+        text-align: left;}
+
+        .at1{transition: 2s;}
+        .at1:hover{background-color: aqua;
+                    border:1px solid burlywood}
+        
+        .at2{transition: 2s;}
+        .at2:hover{background-color: aqua;
+                    border:1px solid burlywood}
+        
+        .at3{transition: 2s;}
+        .at3:hover{background-color: aqua;
+                    border:1px solid burlywood}
+        
+        .at4{transition: 2s;}
+        .at4:hover{background-color: aqua;
+                    border:1px solid burlywood}
+
+img{
+        width: 150px;
+        height: 150px;
+        object-fit: cover; 
+        text-align: center;
+        padding: 5px;
+        }
+
+td{border: 1px solid black;
+    width: 50%;
+    vertical-align: top;}
+
+    table {
+        width: 100%;
+        border-collapse: collapse;}
